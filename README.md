@@ -14,9 +14,9 @@ Converts xyz file formats into qml formats for use with the QDataVisualization m
 
 Tested on the following hardware:
 
-Model Name: MacBook Pro
-Model Identifier: MacBookPro16,3
-Processor Name: Quad-Core Intel Core i5
-Processor Speed: 1.4 GHz
-Number of Processors: 1
+Model Name: MacBook Pro  
+Model Identifier: MacBookPro16,3  
+Processor Name: Quad-Core Intel Core i5  
+Processor Speed: 1.4 GHz  
+Number of Processors: 1  
 Total Number of Cores: 4
