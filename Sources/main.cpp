@@ -108,12 +108,15 @@ Item {
         list_model += "    id: " + id + "\n";
         for (Coordinates coordinate : ids_to_coordinates[id])
         {
-            list_model += "        ListElement{ xPos " + std::to_string(coordinate.x) + " ; yPos " + std::to_string(coordinate.y) + " ; zPos: " + std::to_string(coordinate.z) + " }\n";
+            list_model += "        ListElement{ xPos: " + std::to_string(coordinate.x) + " ; yPos: " + std::to_string(coordinate.y) + " ; zPos: " + std::to_string(coordinate.z) + " }\n";
         }
         list_model += "}\n";
         qml_file << list_model;
+
         list_model.clear();
     }
+    list_model += "}\n";
+    qml_file << list_model;
 
     qml_file.close();
     return 0;
